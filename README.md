@@ -1,59 +1,136 @@
 # Project Instructions
 
 
-** Otimização do Portfólio de Motobombas e Análise de Sazonalidade para Maximização de Vendas**
+## Optimization of the Water Pump Portfolio and Seasonality Analysis for Sales Maximization
 
-**Contexto do Negócio:**
-Uma empresa fabricante de motobombas está enfrentando desafios na gestão de seu portfólio de produtos e no planejamento de sua produção. A diretoria comercial precisa entender melhor o comportamento das vendas para tomar decisões estratégicas sobre:
-- Quais produtos mantêm performance consistente
-- Se existe sazonalidade nas vendas
-- Como otimizar o mix de produtos
+### Business Context:
+- A water pump manufacturing company is facing challenges in managing its product portfolio and planning its production. The commercial management needs to better understand sales behavior to make strategic decisions regarding:
 
-**Problema de Negócio:**
-A empresa precisa reduzir custos operacionais e aumentar a margem de lucro através de um melhor planejamento de produção e gestão de estoque. Atualmente, há problemas com:
-1. Excesso de estoque de alguns modelos
-2. Ruptura de estoque em outros
-3. Dificuldade em prever demanda
-4. Mix de produtos possivelmente não otimizado
+1. Which products maintain consistent performance;
+2. Whether there is seasonality in sales;
+3. How to optimize the product mix.
 
-**Perguntas de Negócio a serem Respondidas:**
-1. Existe sazonalidade nas vendas de diferentes grupos de produtos?
-2. Quais são os produtos mais relevantes em termos de faturamento?
-3. Como se comporta a distribuição de vendas entre os diferentes grupos de produtos?
-4. Existem produtos com tendência de crescimento ou declínio nas vendas?
-5. Qual a correlação entre quantidade vendida e valor de faturamento por grupo de produto?
+### Business Problem:
+The company needs to reduce operational costs and increase profit margin through better production planning and inventory management. Currently, there are problems with:
 
-**Objetivos do Projeto:**
-1. Realizar análise exploratória dos dados
-2. Identificar padrões de sazonalidade
-3. Segmentar produtos por performance
-4. Criar visualizações que suportem a tomada de decisão
-5. Propor recomendações baseadas em dados para otimização do portfólio
+1. Excess inventory of some models;
+2. Stockouts in others;
+3. Difficulty in forecasting demand;
+4. Possibly non-optimized product mix.
 
-**Impacto Esperado:**
-- Redução de 15% nos custos de estoque
-- Aumento de 10% na margem de lucro
-- Melhoria de 20% na precisão do planejamento de produção
-- Redução de 30% nas rupturas de estoque
+### Business Questions to be Answered:
 
-**Entregáveis:**
-1. Dashboard interativo com principais KPIs
-2. Análise de tendências e sazonalidade
-3. Segmentação de produtos por performance
-4. Recomendações estratégicas baseadas em dados
-5. Documentação completa do projeto
-
-Este problema é interessante para um portfólio porque:
-- Demonstra capacidade de análise exploratória
-- Trabalha com dados temporais
-- Possui aplicação prática de negócio
-- Permite mostrar habilidades de visualização
-- Tem potencial para uso de diferentes técnicas analíticas
-
-Você gostaria que eu detalhasse algum aspecto específico deste problema ou que sugerisse algumas análises específicas que poderiam ser feitas com as colunas disponíveis?
+1. Is there seasonality in the sales of different product groups?
+2. Which products are most relevant in terms of revenue?
+3. How is the distribution of sales behaving among the different product groups?
+4. Are there products with a trend of growth or decline in sales?
+5. What is the correlation between the quantity sold and the revenue value per product group?
 
 
+### Project Objectives:
 
+1. Perform exploratory data analysis;
+2. Identify seasonality patterns;
+3. Segment products by performance;
+4. Create visualizations that support decision-making.
+
+
+### Propose data-driven recommendations for portfolio optimization
+Expected Impact:
+
+1. 15% reduction in inventory costs;
+2. 10% increase in profit margin;
+3. 20% improvement in production planning accuracy;
+4. 30% reduction in stockouts.
+
+
+### Deliverables:
+
+1. Interactive dashboard with key KPIs;
+2. Trend and seasonality analysis;
+3. Product segmentation by performance;
+4. Data-driven strategic recommendations.
+
+
+### Complete project documentation
+This problem is interesting for a portfolio because:
+
+1. It demonstrates exploratory analysis capability;
+2. It works with temporal data;
+3. It has practical business application;
+4. It allows showcasing visualization skills;
+5. It has the potential for the use of different analytical techniques.
+
+
+
+
+![logo](images/1_group_counts.png)
+
+
+
+
+
+
+![logo](images/2_sales_orderreturn.png)
+
+
+
+
+
+![logo](images/3_groupcode_sales_orderreturn.png)
+
+
+
+
+
+
+![logo](images/4_orderreturn_year.png)
+
+
+
+
+
+![logo](images/5_orderreturn_month.png)
+
+
+
+
+![logo](images/6_groupcode_sales_quarter.png)
+
+
+
+
+![logo](images/7_correlationmap.png)
+
+
+
+
+![logo](images/8_ARIMA_modeling.png)
+
+
+
+
+![logo](images/9_xgboost_test.png)
+
+
+
+
+![logo](images/10_xgboost_importance.png)
+
+
+
+
+![logo](images/11_rf_test.png)
+
+
+
+
+![logo](images/12_rf_importance.png)
+
+
+
+
+![logo](images/13_iterativeprocess.png)
 
 
 
