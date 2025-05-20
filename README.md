@@ -63,42 +63,39 @@ This problem is interesting for a portfolio because:
 
 
 ## Exploratory Data Analysis (EDA)
-
+- In the picture below, one can notice that the **'MOTOBOMBA_APP'** group code possesses by far the largest amount of items sold, followed by 'MOTOBOMBA_AP' and 'MOTOBOMBA_AD'. This point out that there is just enoguh data to model the 'MOTOBOMBA_APP' group code.
 
 ![logo](images/1_group_counts.png)
 
-
-
-
+- From the picture below, one can notice the distribution of the items sold follows an exponential distribution, while the distribution of items order return is unspecified.
 
 
 ![logo](images/2_sales_orderreturn.png)
 
 
-
+The picture below show the amount of items sold and orders returned for each group code, from which one can notice that **MOTOBOMBA_APP** has the largest amount of items sold and orders returned, followed by MOTOBOMBAS_POOLTEC, and MOTOBOMBA_AD.
 
 
 ![logo](images/3_groupcode_sales_orderreturn.png)
 
 
-
+- From the three pictures below, one can notice that the largest amount of sold items were 2018 and 2019, followed by a decrease, maybe due to the pandemics.
 
 
 
 ![logo](images/4_orderreturn_year.png)
 
-
-
+- From the picture below, one can notice that on November and December have an increase in the amount of items sold, followed by a decrease in January.
 
 
 ![logo](images/5_orderreturn_month.png)
 
 
-
+- One can notice that from the picture below for the first three quarters, the amount of sold items was similar, but for the last quarter there was an increase in the trend, as can be evidenced in the boxplot and violinplot above.
 
 ![logo](images/6_groupcode_sales_quarter.png)
 
-
+- Inspecting the correlation map below, one can notice that the features have a weak correlation between them.
 
 
 ![logo](images/7_correlationmap.png)
@@ -145,3 +142,14 @@ Finally, the picture below shows the predictions on the testing set for the "nor
 1. **Random Forest** was shown to be the best model, having presented an accuracy on the testing data above **91%**.
 2. Rolling mean related features are the most predictive features for both Random Forest and XG Boost models.
 3. ARIMA models seem to not work reasonably well on this data.
+
+
+# MIT License
+
+Copyright (c) [2025] [Dr. Vagner Zeizer Carvalho Paes]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
